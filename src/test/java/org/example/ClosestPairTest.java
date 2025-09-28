@@ -57,7 +57,7 @@ class ClosestPairTest {
         };
         Metrics metrics = new Metrics();
         double result = ClosestPair.closest(points, points.length, metrics);
-        assertEquals(Math.sqrt(0.5*0.5 + 0.5*0.5), result, 1e-9); // расстояние между (10,10) и (10.5,10.5)
+        assertEquals(Math.sqrt(0.5*0.5 + 0.5*0.5), result, 1e-9); 
     }
 
     @Test
