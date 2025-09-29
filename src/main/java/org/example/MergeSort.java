@@ -2,7 +2,7 @@ package org.example;
 
 class MergeSort {
 
-    private static final int CUTOFF = 16;
+    private static final int CUTOFF = 4;
 
     static void insertionSort(int[] arr, int l, int r, Metrics metrics) {
         for (int i = l + 1; i <= r; i++) {
